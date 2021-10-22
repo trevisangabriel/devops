@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd /var/lib/jenkins/workspace/infra\ pipeline/08-jenkins/deploy-infra-img-java-app/terraform
-~/var/lib/jenkins/workspace/infra\ pipeline/08-jenkins/deploy-infra-img-java-app/terraform init
-~/var/lib/jenkins/workspace/infra\ pipeline/08-jenkins/deploy-infra-img-java-app/terraform apply -auto-approve
+cd /var/lib/jenkins/workspace/infra\ pipeline/08-jenkins/deploy-infra-img-java-app/terraform init
+cd /var/lib/jenkins/workspace/infra\ pipeline/08-jenkins/deploy-infra-img-java-app/terraform apply -auto-approve
 
 echo "Aguardando criação de maquinas ..."
 # sleep 10 # 10 segundos
